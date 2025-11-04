@@ -11,7 +11,7 @@ function saluta(nome){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(saluta(name))
+console.log(saluta("Mario"))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
