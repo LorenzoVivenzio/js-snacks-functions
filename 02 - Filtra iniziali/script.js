@@ -26,5 +26,6 @@ function sameLetter(names, letter){
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(sameLetter(names, "A"))
+console.log(sameLetter(names, "L"))
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
