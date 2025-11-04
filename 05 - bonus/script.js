@@ -6,13 +6,28 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
-
+    let dateCorrente = new Date
+    console.log(dateCorrente)
 
 // Dichiara la funzione qui.
 
+function saluta(nome){
 
+    let result;
+
+    if(dateCorrente){
+        result = "buonasera" + " " + name
+    }
+
+
+
+
+
+
+    return result
+}
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(saluta("Mario"))
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
